@@ -1,0 +1,112 @@
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+.chat-space {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 1px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
+  	border-radius: 15px;
+  	background-color: #fff;
+  	width: 765.1px;
+  	height: 708.4px;
+}
+.shape {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 1px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
+  	border-radius: 26px;
+  	background-color: #fff;
+  	width: 674.4px;
+  	height: 46px;
+}
+.text {
+  	position: absolute;
+  	top: 9.04px;
+  	left: 18.12px;
+  	display: flex;
+  	align-items: center;
+  	width: 171.2px;
+  	height: 28px;
+}
+.prompt-box {
+  	position: absolute;
+  	top: 720.72px;
+  	left: 2.63px;
+  	width: 674.4px;
+  	height: 46px;
+}
+.shape1 {
+  	position: absolute;
+  	top: 0px;
+  	left: 0px;
+  	box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.25);
+  	border-radius: 25px;
+  	background-color: #4597f7;
+  	width: 71px;
+  	height: 45px;
+}
+.vector-icon {
+  	position: absolute;
+  	height: 91.11%;
+  	width: 57.61%;
+  	top: 4.44%;
+  	right: 25.49%;
+  	bottom: 4.44%;
+  	left: 16.9%;
+  	max-width: 100%;
+  	overflow: hidden;
+  	max-height: 100%;
+  	object-fit: contain;
+}
+.send-button {
+  	position: absolute;
+  	top: 722px;
+  	left: 693px;
+  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  	width: 71px;
+  	height: 45px;
+}
+.chatbox {
+  	position: absolute;
+  	top: 32px;
+  	left: 257px;
+  	width: 765.1px;
+  	height: 767px;
+}
+.sidebar-1-icon {
+  	position: absolute;
+  	top: 26px;
+  	left: 26px;
+  	border-radius: 1px;
+  	width: 41px;
+  	height: 41px;
+  	overflow: hidden;
+}
+.personal-gpt {
+  	position: absolute;
+  	top: 28px;
+  	left: 77px;
+  	font-size: 30px;
+  	letter-spacing: -0.05em;
+  	font-family: 'Almendra Display';
+  	color: #000;
+  	text-align: center;
+}
+.main-interface {
+  	width: 100%;
+  	position: relative;
+  	background-color: #fff;
+  	border: 0.5px solid #000;
+  	box-sizing: border-box;
+  	height: 700px;
+  	text-align: left;
+  	font-size: 20px;
+  	color: #7d7979;
+  	font-family: Inter;
+}
+
