@@ -6,22 +6,22 @@ body {
 
 .chat-space {
   	position: absolute;
-  	top: 0px;
-  	left: 0px;
+  	top: 0;
+  	left: 0;
   	box-shadow: 1px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
   	border-radius: 15px;
   	background-color: #fff;
-  	width: 765.1px;
-  	height: 708.4px;
+  	width: 765px;
+  	height: 650px;
 }
 .shape {
   	position: absolute;
-  	top: 0px;
-  	left: 0px;
+  	top: 0;
+  	left: 0;
   	box-shadow: 1px 1px 2px 0.5px rgba(0, 0, 0, 0.25);
   	border-radius: 26px;
   	background-color: #fff;
-  	width: 674.4px;
+  	width: 674px;
   	height: 46px;
 }
 .text {
@@ -35,7 +35,7 @@ body {
 }
 .prompt-box {
   	position: absolute;
-  	top: 720.72px;
+  	top: 665px;
   	left: 2.63px;
   	width: 674.4px;
   	height: 46px;
@@ -50,33 +50,23 @@ body {
   	width: 71px;
   	height: 45px;
 }
-.vector-icon {
+
+.send-button-icon {
+  	width: 100%;
   	position: absolute;
-  	height: 91.11%;
-  	width: 57.61%;
-  	top: 4.44%;
-  	right: 25.49%;
-  	bottom: 4.44%;
-  	left: 16.9%;
+	top: 665px;
+	left: 340px;
   	max-width: 100%;
   	overflow: hidden;
-  	max-height: 100%;
-  	object-fit: contain;
+  	height: 45.9px;
 }
-.send-button {
-  	position: absolute;
-  	top: 722px;
-  	left: 693px;
-  	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  	width: 71px;
-  	height: 45px;
-}
+
 .chatbox {
   	position: absolute;
   	top: 32px;
   	left: 257px;
-  	width: 765.1px;
-  	height: 767px;
+  	width: 765px;
+  	height: 700px;
 }
 .sidebar-1-icon {
   	position: absolute;
@@ -93,7 +83,7 @@ body {
   	left: 77px;
   	font-size: 30px;
   	letter-spacing: -0.05em;
-  	font-family: 'Almendra Display';
+	font-family: 'Almendra Display', ui-sans-serif;
   	color: #000;
   	text-align: center;
 }
@@ -103,10 +93,10 @@ body {
   	background-color: #fff;
   	border: 0.5px solid #000;
   	box-sizing: border-box;
-  	height: 700px;
+  	height: 747px;
   	text-align: left;
   	font-size: 20px;
   	color: #7d7979;
-  	font-family: Inter;
+	font-family: Inter, ui-sans-serif;
 }
 
